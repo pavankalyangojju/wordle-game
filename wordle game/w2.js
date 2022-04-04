@@ -1,4 +1,4 @@
-var height = 6; //number of guesses
+.var height = 6; //number of guesses
 var width = 5; //length of the word
 
 var row = 0; //current guess (attempt #)
@@ -8,7 +8,7 @@ var gameOver = false;
 // var word = "SQUID";
 var wordList = ["cigar", "rebut", "sissy", "humph", "awake", "blush", "focal", "evade", "naval", "serve", "heath", "dwarf", "model", "karma", "stink", "grade", "quiet", "bench", "abate", "feign", "major", "death", "fresh", "crust", "stool", "colon", "abase", "marry", "react", "batty", "pride", "floss", "helix", "croak", "staff", "paper", "unfed", "whelp", "trawl", "outdo", "adobe"]
 
-var guessList = ["ciger", "rebqt", "siisy", "humpa", "awakb", "blusc", "focdl", "evadf", "navgl", "serhe", "heaih", "dwajf", "modek", "klrma", "smink", "gnade", "quoet", "pench", "abqte", "feigr", "sajor", "detth", "frush", "vrust", "swool", "xolon", "abaye", "zarry", "aeact", "bbtty", "cride", "dloss", "eelix", "crfak", "gtaff", "haper", "unfej", "whilp", "trkwl", "lutdo", "amobe"]
+var guessList = ["ciger", "rebat", "siisy", "humpa", "awakb", "bladc", "focnl", "evadf", "nevgl", "serhe", "heaih", "dwajf", "modek", "klrma", "smink", "gnade", "quoet", "pench", "abqte", "feigr", "sajor", "detth", "frush", "vrust", "swool", "xolon", "abaye", "zarry", "aeact", "bbtty", "cride", "dloss", "eelix", "crfak", "gtaff", "haper", "unfej", "whilp", "trkwl", "lutdo", "amobe"]
 
 guessList = guessList.concat(wordList);
 
